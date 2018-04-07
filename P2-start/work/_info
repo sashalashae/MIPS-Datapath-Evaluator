@@ -1,0 +1,318 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/17.1
+vADDER32
+Z0 !s110 1523075550
+!i10b 1
+!s100 @ZkWRF6l:NO=ZdIGm10j=2
+Idb_4_XAU`WVQ2j:nGz9c73
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Guester/Desktop/PROJECT2/P2-start
+Z3 w1444784750
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\adder32.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\adder32.v
+L0 9
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1523075549.000000
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\adder32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\adder32.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@d@d@e@r32
+vDMEM
+R0
+!i10b 1
+!s100 W^biL`6mzKi[bhKAnHjIW1
+I]H;lRRQARKIQP[VGQY0:[0
+R1
+R2
+w1523049563
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\data-memory.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\data-memory.v
+L0 22
+R4
+r1
+!s85 0
+31
+Z7 !s108 1523075550.000000
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\data-memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\data-memory.v|
+!i113 1
+R5
+R6
+n@d@m@e@m
+vEXTEND
+R0
+!i10b 1
+!s100 7:LZNzmcN5PVLOcTcY<Io3
+IZm6dfbNmMl?m^lIC;71_W3
+R1
+R2
+R3
+8C:/Users/Guester/Desktop/PROJECT2/P2-start/extend.v
+FC:/Users/Guester/Desktop/PROJECT2/P2-start/extend.v
+L0 14
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Guester/Desktop/PROJECT2/P2-start/extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Guester/Desktop/PROJECT2/P2-start/extend.v|
+!i113 1
+R5
+R6
+n@e@x@t@e@n@d
+vIMEM
+R0
+!i10b 1
+!s100 ^Te[nYUKe=zFZYMS?N<3M2
+IaX<BcH59TLPS0ChNOi`423
+R1
+R2
+R3
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\instruction-mem.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\instruction-mem.v
+L0 19
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\instruction-mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\instruction-mem.v|
+!i113 1
+R5
+R6
+n@i@m@e@m
+vMIPS
+R0
+!i10b 1
+!s100 PjF3=UM]CFaD8UGJY@L=;0
+I[AX3UF7kjI^?[IPJz=3U00
+R1
+R2
+w1523074175
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\mips.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\mips.v
+Z8 L0 12
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\mips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\mips.v|
+!i113 1
+R5
+R6
+n@m@i@p@s
+vMIPS_ALU
+R0
+!i10b 1
+!s100 4h4P;RkNFU255[a0=:Ad?2
+IizicDb`OGkZRDTZ1BW?LF0
+R1
+R2
+w1444784900
+8C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-alu.v
+FC:/Users/Guester/Desktop/PROJECT2/P2-start/mips-alu.v
+R8
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-alu.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@a@l@u
+vMIPS_CONTROL
+R0
+!i10b 1
+!s100 Kikfzj[f]J<SW=U9LfTYC0
+IZMaL=^IXF1T:SkUSdiz:60
+R1
+R2
+w1523069006
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-control.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\mips-control.v
+L0 20
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-control.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@c@o@n@t@r@o@l
+vMIPS_DECODE
+R0
+!i10b 1
+!s100 fX4MfH<lDi<9::iW^ko1o1
+IG4d=6?WJCgLi;K^:Nh`ZQ3
+R1
+R2
+R3
+8C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-decode.v
+FC:/Users/Guester/Desktop/PROJECT2/P2-start/mips-decode.v
+Z9 L0 13
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-decode.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@d@e@c@o@d@e
+vMIPS_TB
+R0
+!i10b 1
+!s100 >Bk>ZI3>SV^b2fc4^mT861
+I?cKM7Y=Q?3mR?<zmQa1ES2
+R1
+R2
+w1523024162
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-tb.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\mips-tb.v
+R9
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-tb.v|
+!i113 1
+R5
+R6
+n@m@i@p@s_@t@b
+vMUX32_2X1
+Z10 !s110 1523075551
+!i10b 1
+!s100 2Z=9oXzScaE;k;9``a5n`3
+I58]H@AXhl]a[d0KeSe3zh2
+R1
+R2
+R3
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\mux32-2x1.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\mux32-2x1.v
+L0 8
+R4
+r1
+!s85 0
+31
+Z11 !s108 1523075551.000000
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\mux32-2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\mux32-2x1.v|
+!i113 1
+R5
+R6
+n@m@u@x32_2@x1
+vMUX5_2X1
+R10
+!i10b 1
+!s100 =9PhlG4PD5F3a;lPffIB:3
+I?KJ7MPihGjXCJ8D;0QKIC2
+R1
+R2
+R3
+8C:/Users/Guester/Desktop/PROJECT2/P2-start/mux5-2x1.v
+FC:/Users/Guester/Desktop/PROJECT2/P2-start/mux5-2x1.v
+L0 8
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Guester/Desktop/PROJECT2/P2-start/mux5-2x1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Guester/Desktop/PROJECT2/P2-start/mux5-2x1.v|
+!i113 1
+R5
+R6
+n@m@u@x5_2@x1
+vPC_REG
+R10
+!i10b 1
+!s100 Y]`3M3mFAnBP0JccOBMIT2
+IBL0T3afT3LX27>NaMdQY62
+R1
+R2
+R3
+8C:/Users/Guester/Desktop/PROJECT2/P2-start/pc-reg.v
+FC:/Users/Guester/Desktop/PROJECT2/P2-start/pc-reg.v
+R8
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Guester/Desktop/PROJECT2/P2-start/pc-reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Guester/Desktop/PROJECT2/P2-start/pc-reg.v|
+!i113 1
+R5
+R6
+n@p@c_@r@e@g
+vREG_FILE
+R10
+!i10b 1
+!s100 S9;EDj7X4]XX=e[3a[7jh0
+Inhh:FPkjW<fRhjb>LzPbO1
+R1
+R2
+R3
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\register-file.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\register-file.v
+L0 9
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\register-file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\register-file.v|
+!i113 1
+R5
+R6
+n@r@e@g_@f@i@l@e
+vSHIFT2
+R10
+!i10b 1
+!s100 O9;]IQ2eba]?mZH;o2g[U2
+IfTW403l`;eh03j@C9Ticg1
+R1
+R2
+R3
+8C:\Users\Guester\Desktop\PROJECT2\P2-start\shift2.v
+FC:\Users\Guester\Desktop\PROJECT2\P2-start\shift2.v
+R8
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:\Users\Guester\Desktop\PROJECT2\P2-start\shift2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Guester\Desktop\PROJECT2\P2-start\shift2.v|
+!i113 1
+R5
+R6
+n@s@h@i@f@t2
