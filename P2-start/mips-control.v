@@ -252,7 +252,50 @@ module MIPS_CONTROL
 	       jump_out     = 0;
 	       extCntrl_out = 1;
 	       ALUCntrl_out = 4'b0110;
-		end //case: {6'h4, 6'hx}		
+		end //case: {6'h4, 6'hx}
+
+		//Jump
+		{6'h2, 6'hx}: // j
+	    begin
+	       regDst_out   = 1'bx;
+	       ALUSrc_out   = 1'bx;
+	       memToReg_out = 1'bx;
+	       regWrite_out = 0;
+	       memWrite_out = 0;
+	       memRead_out  = 0;
+	       branch_out   = 0;
+	       jump_out     = 1;
+	       extCntrl_out = 1'bx;
+	       ALUCntrl_out = 4'bx;
+	    end // case: {6'h2, 6'hx}
+		
+		//jr
+		{6'h0, 6'h08}:
+	    begin
+	       regDst_out   = 0;
+	       ALUSrc_out   = 0;
+	       memToReg_out = 1'bx;
+	       regWrite_out = 0;
+	       memWrite_out = 0;
+	       memRead_out  = 0;
+	       branch_out   = 0;
+	       jump_out     = 1;
+	       extCntrl_out = 1'bx;
+	       ALUCntrl_out = 4'bx;		   
+	    end // case: {6'h0, 6'h08}		
+		{6'h3, 6'hx}: // jal
+	    begin
+	       regDst_out   = 1'bx;
+	       ALUSrc_out   = 1'bx;
+	       memToReg_out = 1'bx;
+	       regWrite_out = 1;
+	       memWrite_out = 0;
+	       memRead_out  = 0;
+	       branch_out   = 0;
+	       jump_out     = 1;
+	       extCntrl_out = 1'bx;
+	       ALUCntrl_out = 4'bx;		   
+	    end // case: {6'h0, 6'h08}	
 	  
 	  default:   //anything else
 	    begin		

@@ -1,19 +1,15 @@
 	.text		
 main:			# execution starts here
 
-	
-#Group 3
+	#Group 4
+	sll $zero, $zero, 0
 	sub $s3, $s3, $s3
 	sub $s2, $s2, $s2
-	sub $s1, $s1, $s1
-    lui $s2, 0x1000
-	beq $zero, $zero, eq
-	addi $s3, $zero, 7
-	eq: addi $s3, $zero, 8
-	bne $zero, $s2, noteq
-	addi $s3, $zero, 0
-	noteq: addi $s1, $zero, 1
-
-
-
-
+	addi $s1, $s1, 0
+	addi $ra, $ra, 0
+	test1: addi $s1, $zero, 1
+	addi $s2, $zero, 1
+	addi $s3, $zero, 2
+	j test1
+	lui $s4, 0x0004
+	jr $ra

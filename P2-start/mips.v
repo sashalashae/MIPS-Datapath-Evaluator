@@ -50,6 +50,13 @@ module MIPS(clk, reset);
    wire [31:0] shout, addresult, bmuxout, bnmuxo, andout, beqando;
    wire notbeqn, isBranchOut;
 
+   //Group 4 Wires
+   wire [25:0] sj_out;
+   wire [31:0] jaddress, jmux1out, jmux2out, shout2, jumpin, jalo, PCplus8;
+   wire [1:0] jandout; 
+   wire jr,jal;
+   wire [4:0] fout;
+
    ///////////////////////////////////////////////
    // Put your new wires below this line
    //For the lw and sw instructions, they use the data memory, so I added a data memory segement
@@ -102,9 +109,60 @@ module MIPS(clk, reset);
       .value1_in(beqando),
       .select_in(op[0])
 	  );
+
+	//Group 4
+	//Jump
+	SHIFT2 shjump(
+	.word_out(shout2),
+	.word_in({6'b000000,instruction[25:0]})
+	);
 	
+	assign jaddress = {PCplus4[31:28], shout2[27:0]};
 	
+		
+	MUX32_2X1 jumpaddmux(
+	.value_out(jmux1out),
+      .value0_in(bmuxout),
+      .value1_in(jaddress),
+      .select_in(jump)
+	  );
+	  
+
+	not nah(jr, instruction[27]);
+	and jrjaland(jump2, jump, jr);
+	  
+	//Jr
+	MUX32_2X1 jumpregmux(
+	  .value_out(jmux2out),
+      .value0_in(jmux1out),
+      .value1_in(A),
+      .select_in(jump2)
+	  );	
 	
+    //Jal
+
+	and jalAnd(jal, jump, op[0]);
+	ADDER32 pcplus8add
+	(
+	 .result_out(PCplus8),
+	 .a_in(PCplus4),
+	 .b_in(32'd4)
+	);
+	
+	MUX32_2X1 jalmux1(
+	 .value_out(jalo), //write data
+      .value0_in(dMout), //memory mux out
+      .value1_in(PCplus8), //PC adder output
+      .select_in(jal) //jump and link
+	  );
+	  	 
+	
+	MUX5_2X1 jalmux2(
+	 .value_out(fout), //write data
+      .value0_in(regDstAddr), //memory mux out
+      .value1_in(5'd31), //PC adder output
+      .select_in(jal) //jump and link
+	  );
    //////////////////////////////////////////////
    
 
@@ -124,8 +182,8 @@ module MIPS(clk, reset);
       .data2_out(regData2),
       .readAddr1_in(rs),
       .readAddr2_in(rt),
-      .writeAddr_in(regDstAddr),
-      .writeData_in(dMuxout),
+      .writeAddr_in(fout),
+      .writeData_in(jalo),
       .writeCntrl_in(regWrite)
       );
 
@@ -135,7 +193,8 @@ module MIPS(clk, reset);
       .clk(clk),
       .reset(reset),
       .PC_out(PC),
-      .PC_in(bmuxout)
+	  //.PC_in(bmuxout)
+      .PC_in(jmux2out)
       );
 
    // instantiation of the decoder

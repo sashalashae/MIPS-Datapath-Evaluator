@@ -1,11 +1,11 @@
-C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-tb.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-tb.v}
+C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-tb.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MIPS_TB
 
 Top level modules:
 	MIPS_TB
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/instruction-mem.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\instruction-mem.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/instruction-mem.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/instruction-mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module IMEM
 
@@ -19,21 +19,21 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	PC_REG
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/mux32-2x1.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\mux32-2x1.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/mux32-2x1.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/mux32-2x1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MUX32_2X1
 
 Top level modules:
 	MUX32_2X1
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/data-memory.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\data-memory.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/data-memory.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/data-memory.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module DMEM
 
 Top level modules:
 	DMEM
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/shift2.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\shift2.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/shift2.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/shift2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module SHIFT2
 
@@ -47,7 +47,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	EXTEND
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/register-file.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\register-file.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/mips.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/mips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/register-file.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/register-file.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module REG_FILE
 
@@ -61,14 +68,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	MIPS_DECODE
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/adder32.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\adder32.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/adder32.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/adder32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module ADDER32
 
 Top level modules:
 	ADDER32
 
-} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-control.v {1 {vlog -work work -stats=none {C:\Users\Guester\Desktop\PROJECT2\P2-start\mips-control.v}
+} {} {}} C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-control.v {1 {vlog -work work -stats=none C:/Users/Guester/Desktop/PROJECT2/P2-start/mips-control.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module MIPS_CONTROL
 
